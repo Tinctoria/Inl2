@@ -1,0 +1,29 @@
+Arbetsgång: 
+
+När jag byggt min grundHTML och skapat de mappar jag vill ha (en för mina css-filer, en för bilder, och en för 
+tredjepartsbibliotek) börjar jag först kolla på hur sidan är uppbyggd, jag börjar med webversionen och 
+anpassar sedan till mobil. 
+
+Bakgrunden är grå, med innehåll centrerat på sidan på till största delen vit bakrund. 
+Jag gör en css fil där jag kommer länka in alla andra, en style.css. Sedan gör jag en reset och en mapp för 
+resterande css komponenter. 
+komponent basic.css lägger jag in stylen för mina grundläggande delar, body och website-content. 
+
+Innehållet i "content" är uppdelat i två sektioner, en lite mindre sektion till vänster och en bredare till höger. 
+Jag skapar två section-taggar i content diven och börjar sedan med innehållet i den första (vänstra). 
+Den mindre sektionen har en bakgrund, det ser ut att vara något mönster i den. Först lägger jag bara färgen.  
+Den har en artikel längst upp och sedan en bild som spiller över till den högra sektionen. 
+
+Artikeln har en rubrik som är samma storlek som artikelns innehåll men bold. 
+Texten i artikeln är ljusare än rubriken. 
+
+Artikeln vill jag styla i en css som jag kallar typography, själva vänstra sektionen sylar jag i en komponent 
+som jag kallar left.css. 
+
+Bilden vill jag förskjuta lite så att den spiller över, detta gör jag genom att sätta position relative på 
+föräldern, i detta fallet left, och sedan position absolute med en förskjutning från vänstra sidan på barnet, 
+dvs bilden img. 
+Bilden vill jag ska anpassa sin storlek efter föräldern så sätter den till width 100%, men jag vill inte att den 
+ska bli för liten så sätter också minvärde på width och height. 
+
+ 

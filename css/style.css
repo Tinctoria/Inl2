@@ -1,0 +1,12 @@
+/* generellt*/ 
+@import 'reset.css';
+@import 'typography.css';
+
+
+/*Komponenter*/ 
+@import 'Components/basics.css';
+@import 'components/left.css';
+@import 'components/right.css';
+
+/* Tredjeparts bibliotek*/ 
+@import '../third/icons-1.4.0/font/bootstrap-icons.css';

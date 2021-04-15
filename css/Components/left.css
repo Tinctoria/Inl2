@@ -1,0 +1,15 @@
+.left {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(250, 246, 245);
+    position: relative;
+}
+
+img{
+    margin-top: 3rem;
+    width: 100%;
+    min-height: 200px;
+    min-width: 200px;   
+    position: absolute;
+    left: 10%;
+}
