@@ -11,5 +11,8 @@
 /*responsiv*/
 @import 'media.css';
 
+/*Animationer*/
+@import 'animations.css';
+
 /* Tredjeparts bibliotek*/ 
 @import '../third/icons-1.4.0/font/bootstrap-icons.css';

@@ -44,11 +44,29 @@ Det ser inte ut att vara någon ram eller bakgrund på den. Så jag tänker att 
 Det finns en icon i, texten är grå, för att den ska hamna där jag vill sätter jag position absolute på den. 
 För att den ska linjera med artikeln på vänstra sidan positionerar jag den med samma avstånd från hörnet. 
 
+    --2--
 Nu är jag färdig med min sida för webben. Dags att göra den responsiv. Jag gör en egen css för det, kallar den
 media.css och länkar in den i style. 
 
 Jag börjar med att kolla när layouten börjar se konstig ut. Sedan är det första jag gör att börja förändra basics. 
 Efter det tar jag bort element som inte skall synas på mindre enheter. Sist justerar jag storlekar/margins på de elementen 
 som är kvar, där det behövs. 
- 
+
+    --3--
 Del 3 handlar om animationer. 
+Jag skapar en animation med hjälp av keyframes. Jag vill animera google-iconen i loginalternativen så att den byter 
+mellan olika färger. Jag skapar en keyframes i cssen och preciserar hur jag vill att animationen skall fungera. 
+Sedan applicerarar jag min animation på elementet jag vill animera. För att animationen skall rulla på så sätter jag 
+attributet infinite på den. 
+
+    --4--
+Del 4 berör SEO. Först och främst kontrollerar jag att min html är strukturerad som den ska med html, head och body. 
+Jag lägger in de meta-taggar och vanliga taggar som sökmotorer kontrollerar i head, tex viewport metataggen och titletaggen. 
+Vi har redan kontrollerat att sidan är responsiv och ser bra ut på flera olika enheter, vilket också är viktigt för SEO. 
+Sedan kollar jag så att min kod inom bodytagen är semantiskt korrekt. Att jag valt rimliga taggar för mina element. 
+Jag är noga med att göra sidan tillgänglig för synnedsatta genom att lägga alt attributet på bilder och ikoner och beskriver
+kortfattat vad de visar. 
+Utöver detta kan man betala för att ens sida skall visas som tex reklam. 
+Man kan också hamna högre ifall andra sidor med hög SEO länkar till ens sida. 
+
+ 

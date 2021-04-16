@@ -9,6 +9,11 @@
         flex-direction: column;
     }
     
+    .left article{
+        left: 5%;
+        top: 2rem;
+        padding: 0;
+    }
 
     .left article p{
         display: none;
@@ -22,7 +27,6 @@
         margin: 0; 
         max-width: 50%;
         margin-top: 3rem;
-        position: none;
     }
 
     .right .card {

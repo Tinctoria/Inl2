@@ -1,4 +1,11 @@
 /*generellt för högra delen*/
+@keyframes iconcolors {
+    0% { color: inherit;}
+    25% {color: red;} 
+    50% {color: orange;}
+    75% {color: green}
+    100% {color: blue;}
+}
 
 .right {
     flex: 7;
@@ -35,6 +42,9 @@ button {
     border-style: solid;
     border-color: rgb(240, 238, 238);
     background-color: white;
+}
+.choice i {
+    animation: iconcolors 8s infinite;
 }
 
 .alt{ 
