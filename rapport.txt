@@ -43,4 +43,12 @@ När hela inloggningsdelen är klar har jag språkvalsknappen längst upp till h
 Det ser inte ut att vara någon ram eller bakgrund på den. Så jag tänker att jag gör en button och stylar den. 
 Det finns en icon i, texten är grå, för att den ska hamna där jag vill sätter jag position absolute på den. 
 För att den ska linjera med artikeln på vänstra sidan positionerar jag den med samma avstånd från hörnet. 
+
+Nu är jag färdig med min sida för webben. Dags att göra den responsiv. Jag gör en egen css för det, kallar den
+media.css och länkar in den i style. 
+
+Jag börjar med att kolla när layouten börjar se konstig ut. Sedan är det första jag gör att börja förändra basics. 
+Efter det tar jag bort element som inte skall synas på mindre enheter. Sist justerar jag storlekar/margins på de elementen 
+som är kvar, där det behövs. 
  
+Del 3 handlar om animationer. 
