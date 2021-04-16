@@ -5,7 +5,7 @@
     position: relative;
 }
 
-img{
+.left img{
     margin-top: 3rem;
     width: 100%;
     min-height: 200px;

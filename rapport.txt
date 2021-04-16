@@ -7,7 +7,7 @@ anpassar sedan till mobil.
 Bakgrunden är grå, med innehåll centrerat på sidan på till största delen vit bakrund. 
 Jag gör en css fil där jag kommer länka in alla andra, en style.css. Sedan gör jag en reset och en mapp för 
 resterande css komponenter. 
-komponent basic.css lägger jag in stylen för mina grundläggande delar, body och website-content. 
+komponent basic.css lägger jag in stylen för mina grundläggande delar, body och website-content.
 
 Innehållet i "content" är uppdelat i två sektioner, en lite mindre sektion till vänster och en bredare till höger. 
 Jag skapar två section-taggar i content diven och börjar sedan med innehållet i den första (vänstra). 
@@ -25,5 +25,22 @@ föräldern, i detta fallet left, och sedan position absolute med en förskjutni
 dvs bilden img. 
 Bilden vill jag ska anpassa sin storlek efter föräldern så sätter den till width 100%, men jag vill inte att den 
 ska bli för liten så sätter också minvärde på width och height. 
+Jag vill också ha lite avstånd till artikeln så lägger en margin på toppen av bilden. 
 
+Nu är jag redo att börja med högra delen. Skapar en css som jag döper till right och länkar in i style.css. 
+I den högra delen finns en artikel med en länk, sedan tre olika alternativ för inloggning, dessa kan man nog 
+göra som knappar. 
+Sedan kommer ett formulär som innehåller lite label- och inputtaggar, en checkbox och en submit. 
+Vi har också en språkvalsrullgardin i högra hörnet. 
+Det övergipande innehållet i högra delen är centrerat, så jag kommer lägga en display flex på sektionen och sedan 
+innehållet (artikeln och formuläret) i ett kort. 
+
+För att fixa layoten kommer jag behöva skapa sektioner för vissa element som innehåller flera delar. Dvs inputfältet
+med en icon i och checkboxen med tillhörande text. Password strength bars vill jag även ha som en egen sektion då 
+jag vill ha en grid-layout på dem. 
+
+När hela inloggningsdelen är klar har jag språkvalsknappen längst upp till höger kvar. 
+Det ser inte ut att vara någon ram eller bakgrund på den. Så jag tänker att jag gör en button och stylar den. 
+Det finns en icon i, texten är grå, för att den ska hamna där jag vill sätter jag position absolute på den. 
+För att den ska linjera med artikeln på vänstra sidan positionerar jag den med samma avstånd från hörnet. 
  

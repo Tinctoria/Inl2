@@ -27,11 +27,11 @@
                     </p>
                 </article>
                 <section class="login-alt"> 
-                    <button class="choice"> Sign up with Google
+                    <button class="choice"> <i class="bi bi-google" alt="google logo"></i>  Sign up with Google
                     </button>
-                    <button class="alt"> facebook
+                    <button class="alt"> <i class="bi bi-facebook" alt="facebook logo"></i>
                     </button>
-                    <button class="alt"> apple
+                    <button class="alt"> <img src="img/2962084.svg" alt="apple logo">
                     </button>
                 </section>
                 <p> - OR - </p>
@@ -41,7 +41,9 @@
                     <label>Email address</label>
                     <input type="email" name="email" placeholder="john.doe@email.com">
                     <label>Password</label>
-                    <input type="password" name="password"> 
+                    <section class="input-field">
+                        <input type="password" name="password"> <i class="bi bi-eye"></i>
+                    </section>
                     <p>Password Strength</p>
                     <section class="password-bars">
                         <section class="bar"> </section>
@@ -49,16 +51,18 @@
                         <section class="bar"> </section>
                         <section class="bar"> </section>
                     </section>
-                    <input type="checkbox" name="agree">
-                    <label for="agree"> By creating account, you agree to our 
+                    <section class="checkbox-row">
+                        <input type="checkbox" name="agree">
+                        <label for="agree"> By creating account, you agree to our 
                         <a href="#">Privacy Policy</a>, <a href="#">Terms of Service</a> and 
                         <a href="#">Notification settings</a> 
-                    </label>
-                    <input class="acc-btn" type="submit" content="Create Account" name="create-account">
-                </form>
+                        </label>
+                    </section>
+                    
+                    <input class="acc-btn" type="submit" value="Create Account" name="create-account">
+                </form> 
             </section>
-
-
+            <button class="language"> English (USA)<i class="bi bi-caret-down-fill"></i></button>
         </section>
     </div>
 </body>

@@ -35,3 +35,15 @@ form>p {
     color: black;
     font-weight: bold;
 }
+
+.input-field input{
+    font-size: 1.5rem;
+}
+
+.acc-btn{
+    color: white;
+}
+
+.language{
+    font-size: 12px;
+}
