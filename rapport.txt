@@ -64,9 +64,9 @@ Del 4 berör SEO. Först och främst kontrollerar jag att min html är strukture
 Jag lägger in de meta-taggar och vanliga taggar som sökmotorer kontrollerar i head, tex viewport metataggen och titletaggen. 
 Vi har redan kontrollerat att sidan är responsiv och ser bra ut på flera olika enheter, vilket också är viktigt för SEO. 
 Sedan kollar jag så att min kod inom bodytagen är semantiskt korrekt. Att jag valt rimliga taggar för mina element. 
-Jag är noga med att göra sidan tillgänglig för synnedsatta genom att lägga alt attributet på bilder och ikoner och beskriver
+Jag är noga med att göra sidan tillgänglig för synnedsatta genom att lägga alt attributet på bilder och beskriver
 kortfattat vad de visar. 
 Utöver detta kan man betala för att ens sida skall visas som tex reklam. 
-Man kan också hamna högre ifall andra sidor med hög SEO länkar till ens sida. 
+Man kan också hamna högre ifall andra sidor länkar till ens sida. 
 
  
